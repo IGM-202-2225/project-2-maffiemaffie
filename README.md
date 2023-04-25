@@ -1,17 +1,13 @@
-# Project _NAME_
-
-[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
-
-_REPLACE OR REMOVE EVERYTING BETWEEN "\_"_
+# Project Mateo
 
 ### Student Info
 
--   Name: _YOUR NAME_
--   Section: _##_
+-   Name: Mateo Ramos
+-   Section: 01
 
 ## Simulation Design
 
-_A brief explanation of your simulation._
+It has a bunch of cars they do stuff (usually car-related stuff but not exclusively)
 
 ### Controls
 
@@ -19,37 +15,34 @@ _A brief explanation of your simulation._
     -   _Include how to preform each action ( keyboard, mouse, UI Input )_
     -   _Include what impact an action has in the simulation ( if is could be unclear )_
 
-## _Agent 1 Name_
+## Normal (boring) Car
 
-_A brief explanation of this agent._
+Drives. Sucks. Isn't cool. No one likes it. Isn't even quirky.
 
-### _State 1 Name_
+### Stupid freeway car
 
-**Objective:** _A brief explanation of this state's objective._
+**Objective:** Car tries to drive on the freeway even though the ramp is blocked off.
 
 #### Steering Behaviors
 
-- _List all behaviors used by this state_
-   - _If behavior has input data list it here_
-   - _eg, Flee - nearest Agent2_
-- Obstacles - _List all obstacle types this state avoids_
-- Seperation - _List all agents this state seperates from_
+- Seek - Nearest freeway ramp
+- Obstacles - Traffic cones
+- Seperation - Other cars
    
 #### State Transistions
 
-- _List all the ways this agent can transition to this state_
-   - _eg, When this agent gets within range of Agent2_
-   - _eg, When this agent has reached target of State2_
+- This car is sufficiently far from any given freeway ramp
+- This car is bored (has driven too long without a goal)
    
-### _State 2 Name_
+### Depression (realized the freeway was inaccessible)
 
-**Objective:** _A brief explanation of this state's objective._
+**Objective:** Car drives away from the freeway with the knowledge that the freeway ramp is closed.
 
 #### Steering Behaviors
 
-- _List all behaviors used by this state_
-- Obstacles - _List all obstacle types this state avoids_
-- Seperation - _List all agents this state seperates from_
+- Flee - the targeted freeway ramp
+- Obstacles - Traffic cones
+- Seperation - Other cars
    
 #### State Transistions
 
