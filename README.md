@@ -1,17 +1,13 @@
-# Project _NAME_
-
-[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
-
-_REPLACE OR REMOVE EVERYTING BETWEEN "\_"_
+# Project Maf
 
 ### Student Info
 
--   Name: _YOUR NAME_
--   Section: _##_
+-   Name: Maffie Cohen
+-   Section: 01
 
 ## Simulation Design
 
-_A brief explanation of your simulation._
+It has a bunch of cars they do stuff (usually car-related stuff but not exclusively)
 
 ### Controls
 
@@ -19,82 +15,79 @@ _A brief explanation of your simulation._
     -   _Include how to preform each action ( keyboard, mouse, UI Input )_
     -   _Include what impact an action has in the simulation ( if is could be unclear )_
 
-## _Agent 1 Name_
+## Normal (boring) Car
 
-_A brief explanation of this agent._
+Drives. Sucks. Isn't cool. No one likes it. Isn't even quirky.
 
-### _State 1 Name_
+### Stupid freeway car
 
-**Objective:** _A brief explanation of this state's objective._
-
-#### Steering Behaviors
-
-- _List all behaviors used by this state_
-   - _If behavior has input data list it here_
-   - _eg, Flee - nearest Agent2_
-- Obstacles - _List all obstacle types this state avoids_
-- Seperation - _List all agents this state seperates from_
-   
-#### State Transistions
-
-- _List all the ways this agent can transition to this state_
-   - _eg, When this agent gets within range of Agent2_
-   - _eg, When this agent has reached target of State2_
-   
-### _State 2 Name_
-
-**Objective:** _A brief explanation of this state's objective._
+**Objective:** Car tries to drive on the freeway even though the ramp is closed.
 
 #### Steering Behaviors
 
-- _List all behaviors used by this state_
-- Obstacles - _List all obstacle types this state avoids_
-- Seperation - _List all agents this state seperates from_
+- Seek - Nearest freeway ramp
+- Obstacles - Traffic cones
+- Separation - Other cars
    
 #### State Transistions
 
-- _List all the ways this agent can transition to this state_
+- This car is sufficiently far from any given freeway ramp
+- This car is bored (has driven too long without a goal)
+   
+### Depression (realized the freeway was inaccessible)
 
-## _Agent 2 Name_
-
-_A brief explanation of this agent._
-
-### _State 1 Name_
-
-**Objective:** _A brief explanation of this state's objective._
+**Objective:** Car drives away from the freeway, enlightened with the knowledge that the freeway ramp is closed.
 
 #### Steering Behaviors
 
-- _List all behaviors used by this state_
-- Obstacles - _List all obstacle types this state avoids_
-- Seperation - _List all agents this state seperates from_
+- Flee - The targeted freeway ramp
+- Obstacles - Traffic cones
+- Separation - Other cars
    
 #### State Transistions
 
-- _List all the ways this agent can transition to this state_
-   
-### _State 2 Name_
+- This car is sufficiently close to it's freeway ramp target
 
-**Objective:** _A brief explanation of this state's objective._
+## STUDENT DRIVER STUPID DUMB STUDENT DRIVER UH OH STUDENT DRIVER
+
+DRIVES ERRATICALLY AND IS STUPID AND AVOIDS ALL FREEWAY RAMPS BECAUSE IT'S TOO SCARED AND DUMB.
+
+### PANIC (panic)
+
+**Objective:** SURVIVE
 
 #### Steering Behaviors
 
-- _List all behaviors used by this state_
-- Obstacles - _List all obstacle types this state avoids_
-- Seperation - _List all agents this state seperates from_
+- Flee - ALL CARS
+- Obstacles - ALL CARS
+- Separation - ALL CARS
    
 #### State Transistions
 
-- _List all the ways this agent can transition to this state_
+- Gets too close to another car
+- Gets too close to the freeway
+   
+### anxiety ._.
+
+**Objective:** wander around and don't get hit
+
+#### Steering Behaviors
+
+- Wanders
+- Obstacles - Traffic cones
+- Separation - Other cars
+   
+#### State Transistions
+
+- calms down (panics for sufficiently long)
 
 ## Sources
 
--   _List all project sources here –models, textures, sound clips, assets, etc._
--   _If an asset is from the Unity store, include a link to the page and the author’s name_
+- me i made it its all mine i made everything im the best its mine
 
 ## Make it Your Own
 
-- _List out what you added to your game to make it different for you_
+- i drew all the sprites
 - _If you will add more agents or states make sure to list here and add it to the documention above_
 - _If you will add your own assets make sure to list it here and add it to the Sources section
 
