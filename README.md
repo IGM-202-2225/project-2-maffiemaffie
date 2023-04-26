@@ -1,8 +1,8 @@
-# Project Mateo
+# Project Maf
 
 ### Student Info
 
--   Name: Mateo Ramos
+-   Name: Maffie Cohen
 -   Section: 01
 
 ## Simulation Design
@@ -21,13 +21,13 @@ Drives. Sucks. Isn't cool. No one likes it. Isn't even quirky.
 
 ### Stupid freeway car
 
-**Objective:** Car tries to drive on the freeway even though the ramp is blocked off.
+**Objective:** Car tries to drive on the freeway even though the ramp is closed.
 
 #### Steering Behaviors
 
 - Seek - Nearest freeway ramp
 - Obstacles - Traffic cones
-- Seperation - Other cars
+- Separation - Other cars
    
 #### State Transistions
 
@@ -36,58 +36,58 @@ Drives. Sucks. Isn't cool. No one likes it. Isn't even quirky.
    
 ### Depression (realized the freeway was inaccessible)
 
-**Objective:** Car drives away from the freeway with the knowledge that the freeway ramp is closed.
+**Objective:** Car drives away from the freeway, enlightened with the knowledge that the freeway ramp is closed.
 
 #### Steering Behaviors
 
-- Flee - the targeted freeway ramp
+- Flee - The targeted freeway ramp
 - Obstacles - Traffic cones
-- Seperation - Other cars
+- Separation - Other cars
    
 #### State Transistions
 
-- _List all the ways this agent can transition to this state_
+- This car is sufficiently close to it's freeway ramp target
 
-## _Agent 2 Name_
+## STUDENT DRIVER STUPID DUMB STUDENT DRIVER UH OH STUDENT DRIVER
 
-_A brief explanation of this agent._
+DRIVES ERRATICALLY AND IS STUPID AND AVOIDS ALL FREEWAY RAMPS BECAUSE IT'S TOO SCARED AND DUMB.
 
-### _State 1 Name_
+### PANIC (panic)
 
-**Objective:** _A brief explanation of this state's objective._
+**Objective:** SURVIVE
 
 #### Steering Behaviors
 
-- _List all behaviors used by this state_
-- Obstacles - _List all obstacle types this state avoids_
-- Seperation - _List all agents this state seperates from_
+- Flee - ALL CARS
+- Obstacles - ALL CARS
+- Separation - ALL CARS
    
 #### State Transistions
 
-- _List all the ways this agent can transition to this state_
+- Gets too close to another car
+- Gets too close to the freeway
    
-### _State 2 Name_
+### anxiety ._.
 
-**Objective:** _A brief explanation of this state's objective._
+**Objective:** wander around and don't get hit
 
 #### Steering Behaviors
 
-- _List all behaviors used by this state_
-- Obstacles - _List all obstacle types this state avoids_
-- Seperation - _List all agents this state seperates from_
+- Wanders
+- Obstacles - Traffic cones
+- Separation - Other cars
    
 #### State Transistions
 
-- _List all the ways this agent can transition to this state_
+- calms down (panics for sufficiently long)
 
 ## Sources
 
--   _List all project sources here –models, textures, sound clips, assets, etc._
--   _If an asset is from the Unity store, include a link to the page and the author’s name_
+- me i made it its all mine i made everything im the best its mine
 
 ## Make it Your Own
 
-- _List out what you added to your game to make it different for you_
+- i drew all the sprites
 - _If you will add more agents or states make sure to list here and add it to the documention above_
 - _If you will add your own assets make sure to list it here and add it to the Sources section
 
