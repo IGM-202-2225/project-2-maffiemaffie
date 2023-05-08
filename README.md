@@ -11,30 +11,28 @@ It has a bunch of cars they do stuff (usually car-related stuff but not exclusiv
 
 ### Controls
 
--   _List all of the actions the player can have in your simulation_
-    -   _Include how to preform each action ( keyboard, mouse, UI Input )_
-    -   _Include what impact an action has in the simulation ( if is could be unclear )_
+-   Place a traffic cone by clicking in the game window.
 
-## Normal (boring) Car
+## Normal (boring) Car \[SUV\]
 
 Drives. Sucks. Isn't cool. No one likes it. Isn't even quirky.
 
-### Stupid freeway car
+### Stupid freeway car \[yellow\]
 
 **Objective:** Car tries to drive on the freeway even though the ramp is closed.
 
 #### Steering Behaviors
 
-- Seek - Nearest freeway ramp
+- Seek - Random freeway ramp
 - Obstacles - Traffic cones
 - Separation - Other cars
    
 #### State Transistions
 
-- This car is sufficiently far from any given freeway ramp
+- This car is sufficiently far from its target freeway ramp
 - This car is bored (has driven too long without a goal)
    
-### Depression (realized the freeway was inaccessible)
+### Depression (realized the freeway was inaccessible) \[green\]
 
 **Objective:** Car drives away from the freeway, enlightened with the knowledge that the freeway ramp is closed.
 
@@ -48,11 +46,11 @@ Drives. Sucks. Isn't cool. No one likes it. Isn't even quirky.
 
 - This car is sufficiently close to it's freeway ramp target
 
-## STUDENT DRIVER STUPID DUMB STUDENT DRIVER UH OH STUDENT DRIVER
+## STUDENT DRIVER STUPID DUMB STUDENT DRIVER UH OH STUDENT DRIVER \[sedan\]
 
 DRIVES ERRATICALLY AND IS STUPID AND AVOIDS ALL FREEWAY RAMPS BECAUSE IT'S TOO SCARED AND DUMB.
 
-### PANIC (panic)
+### PANIC (panic) \[purple\]
 
 **Objective:** SURVIVE
 
@@ -65,21 +63,22 @@ DRIVES ERRATICALLY AND IS STUPID AND AVOIDS ALL FREEWAY RAMPS BECAUSE IT'S TOO S
 #### State Transistions
 
 - Gets too close to another car
-- Gets too close to the freeway
+- Gets too close to a freeway ramp
    
-### anxiety ._.
+### anxiety ._. \[blue\]
 
-**Objective:** wander around and don't get hit
+**Objective:** blend in and dont get hit
 
 #### Steering Behaviors
 
-- Wanders
+- Coheses - Other cars 
 - Obstacles - Traffic cones
 - Separation - Other cars
    
 #### State Transistions
 
 - calms down (panics for sufficiently long)
+- calms down (is sufficiently far from other cars)
 
 ## Sources
 
@@ -87,15 +86,13 @@ DRIVES ERRATICALLY AND IS STUPID AND AVOIDS ALL FREEWAY RAMPS BECAUSE IT'S TOO S
 
 ## Make it Your Own
 
-- i drew all the sprites
-- _If you will add more agents or states make sure to list here and add it to the documention above_
-- _If you will add your own assets make sure to list it here and add it to the Sources section
+- i did all the art
 
 ## Known Issues
 
-_List any errors, lack of error checking, or specific information that I need to know to run your program_
+Cars go through obstacles or off the edge a lot.
+They're jittery a lot.
 
 ### Requirements not completed
 
-_If you did not complete a project requirement, notate that here_
-
+i did all of it baybeee
