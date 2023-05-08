@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   physicsObject: {fileID: 5987886758816652857}
-  maxSpeed: 8
+  maxSpeed: 5
   anxietySprite: {fileID: 21300000, guid: 8879477dc56e71d4abb31335d4db55db, type: 3}
   panicSprite: {fileID: 21300000, guid: 247b173a3fc76a44380724d067f48d31, type: 3}
   separateScalar: 1
@@ -127,4 +127,4 @@ MonoBehaviour:
   inBoundsScalar: 10
   wanderScalar: 0
   obstacleScalar: 10
-  panicScalar: 30
+  panicScalar: 50

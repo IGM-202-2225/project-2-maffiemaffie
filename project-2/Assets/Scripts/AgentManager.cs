@@ -27,9 +27,9 @@ public class AgentManager : Singleton<AgentManager>
         bounds.Left = -Camera.main.orthographicSize * Camera.main.aspect;
         bounds.Right = Camera.main.orthographicSize * Camera.main.aspect;
 
-        SpawnRamps();
+        // SpawnRamps();
         SpawnObstacle(5);
-        SpawnAgent(boringCarPrefab, 50);
+        SpawnAgent(boringCarPrefab, 35);
         SpawnAgent(studentCarPrefab, 12);
     }
 
@@ -83,6 +83,7 @@ public class AgentManager : Singleton<AgentManager>
     }
     */
 
+    /*
     private void SpawnRamps()
     {
         SpawnRampAt(bounds.Left * 0.75f, bounds.Left * 0.5f, bounds.Top * 0.5f, bounds.Top * 0.75f);
@@ -99,6 +100,7 @@ public class AgentManager : Singleton<AgentManager>
                 Random.Range(bottom, top));
         ramps.Add(Instantiate(rampPrefab, position, Quaternion.identity));
     }
+    */
 
     public List<GameObject> GetNeighbors(GameObject agent, float closeness)
     {

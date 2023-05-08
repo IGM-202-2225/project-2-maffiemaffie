@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   physicsObject: {fileID: 2932897871010303934}
-  maxSpeed: 5
+  maxSpeed: 7
   freewaySprite: {fileID: 21300000, guid: fc2891a94f929bc4bb60a783d19cc7b4, type: 3}
   depressionSprite: {fileID: 21300000, guid: 17c8c3c9cca4bdb41b13f661d0ff0f28, type: 3}
   separateScalar: 1
